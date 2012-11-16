@@ -1,0 +1,101 @@
+[Thu Nov 15 13:39:30 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 18
+[Thu Nov 15 13:39:30 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 13:39:30 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 13:39:30 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 18
+[Thu Nov 15 13:39:30 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 13:39:30 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 13:39:30 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 13:39:31 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 18
+[Thu Nov 15 13:39:31 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 13:39:31 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 13:39:31 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 18
+[Thu Nov 15 13:39:31 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 13:39:31 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 13:39:31 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 13:46:03 2012] [error] [client 127.0.0.1] File does not exist: /home/prongs/WebDevelop/test/public
+[Thu Nov 15 13:46:03 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 272 to 209 : URL /
+[Thu Nov 15 13:46:03 2012] [error] [client 127.0.0.1] File does not exist: /home/prongs/WebDevelop/test/public
+[Thu Nov 15 13:46:03 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 283 to 217 : URL /favicon.ico
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 18
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 18
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 13:52:21 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 18
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 18
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 13:52:21 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 13:52:21 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 13:53:02 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1042 to 467 : URL /index.php
+[Thu Nov 15 13:53:03 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 375 to 261 : URL /index.php
+[Thu Nov 15 13:54:03 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 64137 to 11220 : URL /index.php
+[Thu Nov 15 13:54:03 2012] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'Zend_Controller_Response_Exception' with message 'Cannot send headers; headers already sent in /home/prongs/WebDevelop/test/public/index.php, line 2' in /home/prongs/WebDevelop/test/library/Zend/Controller/Response/Abstract.php:323\nStack trace:\n#0 /home/prongs/WebDevelop/test/library/Zend/Controller/Response/Abstract.php(341): Zend_Controller_Response_Abstract->canSendHeaders(true)\n#1 /home/prongs/WebDevelop/test/library/Zend/Controller/Response/Abstract.php(768): Zend_Controller_Response_Abstract->sendHeaders()\n#2 /home/prongs/WebDevelop/test/library/Zend/Controller/Front.php(992): Zend_Controller_Response_Abstract->sendResponse()\n#3 /home/prongs/WebDevelop/test/library/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()\n#4 /home/prongs/WebDevelop/test/library/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()\n#5 /home/prongs/WebDevelop/test/public/index.php(26): Zend_Application->run()\n#6 {main}\n  thrown in /home/prongs/WebDevelop/test/library/Zend/Controller/Response/Abstract.php on line 323
+[Thu Nov 15 13:54:03 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 63016 to 10778 : URL /index.php
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:30 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:30 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:30 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:32 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:32 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:32 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:33 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:33 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:33 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 14:00:34 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:34 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:34 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:34 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:34 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:34 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:34 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 14:00:35 2012] [error] [client 127.0.0.1] PHP Warning:  require_once(Zend/Application.php): failed to open stream: No such file or directory in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:35 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:35 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:35 2012] [error] [client 127.0.0.1] PHP Fatal error:  require_once(): Failed opening required 'Zend/Application.php' (include_path='/home/prongs/WebDevelop/test/library:.:/usr/share/php:/usr/share/pear') in /home/prongs/WebDevelop/test/public/index.php on line 17
+[Thu Nov 15 14:00:35 2012] [error] [client 127.0.0.1] PHP Stack trace:
+[Thu Nov 15 14:00:35 2012] [error] [client 127.0.0.1] PHP   1. {main}() /home/prongs/WebDevelop/test/public/index.php:0
+[Thu Nov 15 14:00:35 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 0 to 2 : URL /index.php
+[Thu Nov 15 14:00:59 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1042 to 467 : URL /index.php
+[Thu Nov 15 14:01:00 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 375 to 261 : URL /index.php
+[Thu Nov 15 14:25:46 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1042 to 467 : URL /index.php
+[Thu Nov 15 14:25:59 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 375 to 261 : URL /index.php
+[Thu Nov 15 15:14:55 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1042 to 467 : URL /index.php
+[Thu Nov 15 15:14:56 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 375 to 261 : URL /index.php
+[Fri Nov 16 10:00:44 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 1042 to 467 : URL /index.php
+[Fri Nov 16 10:00:45 2012] [debug] mod_deflate.c(615): [client 127.0.0.1] Zlib: Compressed 375 to 261 : URL /index.php
