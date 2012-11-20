@@ -5,8 +5,23 @@ includePaths.library = APPLICATION_PATH "/../library"
 bootstrap.path = APPLICATION_PATH "/Bootstrap.php"
 bootstrap.class = "Bootstrap"
 appnamespace = "Application"
-resources.frontController.controllerDirectory = APPLICATION_PATH "/modules"
-resources.frontController.params.displayExceptions = ""
+resources.frontController.controllerDirectory = APPLICATION_PATH ""
+resources.frontController.params.displayExceptions = 0
+resources.frontController.moduleDirectory = APPLICATION_PATH "/modules"
+resources.modules = ""
+resources.layout.layoutPath = APPLICATION_PATH "/layouts"
+resources.layout.layout = master
+
+resources.router.routes.home.route = /home
+resources.router.routes.home.defaults.module=default
+resources.router.routes.home.defaults.controller=index
+resources.router.routes.home.defaults.action=index
+
+resources.router.routes.static-content.route = /content/:page
+resources.router.routes.static-content.defaults.module=default
+resources.router.routes.static-content.defaults.controller=static-content
+resources.router.routes.static-content.defaults.action=display
+
 
 [staging : production]
 
