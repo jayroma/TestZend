@@ -2,15 +2,23 @@
 
 class Square_Form_Contact extends Zend_Form{
     public function init(){
-        $this->setAction('/public/contact/index')
+        $this->setAction('/contact/index')
              ->setMethod('post');
         
         $name = new Zend_Form_Element_Text('name');
         $name->setLabel('Name: ')
              ->setOptions(array('size'=>'35'))
              ->setRequired(TRUE)
-             ->addValidator('NotEmpty',TRUE)
-             ->addValidator('Alpha',TRUE)
+             ->addValidator('Alpha',TRUE,array(
+                 'messages'=>array(
+                 Zend_Validate_Alpha::INVALID
+                    =>"Помилка: невірне ім’я",
+                 Zend_Validate_Alpha::NOT_ALPHA
+                    =>"Помилка: містить недопустимі символи",
+                 Zend_Validate_Alpha::STRING_EMPTY
+                    =>"Помилка: не може бути пустим"
+                 )
+             ))
              ->addFilter('HtmlEntities')
              ->addFilter('StringTrim');
         
@@ -18,8 +26,15 @@ class Square_Form_Contact extends Zend_Form{
         $email->setLabel('Email adres: ')
              ->setOptions(array('size'=>'50'))
              ->setRequired(TRUE)
-             ->addValidator('NotEmpty',TRUE)
-             ->addValidator('EmailAddress',TRUE)
+             ->addValidator('EmailAddress',TRUE,array(
+                 'messages'=>array(
+                     Zend_Validate_EmailAddress::INVALID=>"Помилка: Не вірний E-mail",
+                     Zend_Validate_EmailAddress::INVALID_FORMAT=>"Помилка: Не вірний E-mail",
+                     Zend_Validate_EmailAddress::INVALID_HOSTNAME=>"Помилка: Не вірний Host",
+                     Zend_Validate_EmailAddress::INVALID_LOCAL_PART=>"Помилка: Не вірний Username",
+                     Zend_Validate_EmailAddress::LENGTH_EXCEEDED=>"Помилка: E-mail занадто довгий"
+                 )
+             ))
              ->addFilter('StringToLower')
              ->addFilter('StringTrim');
         
@@ -40,7 +55,7 @@ class Square_Form_Contact extends Zend_Form{
                 'height'=>100,
                 'wordLen'=>3,
                 'timeout'=>300,
-                'imgUrl'=>'public/images/captcha',
+                'imgUrl'=>'images/captcha',
                 'imgDir'=>'images/captcha',
                 'expiration'    => 300, // время жизни капчи
                 
