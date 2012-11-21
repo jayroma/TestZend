@@ -14,13 +14,13 @@ Setting Up Your VHOST
 The following is a sample VHOST you might want to consider for your project.
 
 <VirtualHost *:80>
-   DocumentRoot "/home/prongs/WebDevelop/test/public"
-   ServerName test.local
+   DocumentRoot "/home/denis/webHosts/mysite6.loc/public"
+   ServerName mysite6.loc.local
 
    # This should be omitted in the production environment
    SetEnv APPLICATION_ENV development
 
-   <Directory "/home/prongs/WebDevelop/test/public">
+   <Directory "/home/denis/webHosts/mysite6.loc/public">
        Options Indexes MultiViews FollowSymLinks
        AllowOverride All
        Order allow,deny

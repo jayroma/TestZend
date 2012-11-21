@@ -22,7 +22,7 @@ resources.router.routes.static-content.defaults.module=default
 resources.router.routes.static-content.defaults.controller=static-content
 resources.router.routes.static-content.defaults.action=display
 
-
+autoloaderNamespaces[] = "Square_"
 [staging : production]
 
 [testing : production]

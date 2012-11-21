@@ -8,12 +8,12 @@
     </head>
     <body>
         <div id="header">
-            <div id="logo"><img src="public/images/logo.png" width="248" height="67"/></div>
+            <div id="logo"><img src="/images/logo.gif" /></div>
             <div id="menu">
                 <a href="<?php echo $this->url(array(), 'home');?>">HOME</a>
                 <a href="<?php echo $this->url(array('page'=>'services'),'static-content');?>">SERVICE</a>
                 <a href="<?php echo $this->url(array('page'=>'us'),'static-content');?>">US</a>
-                <a href="<?php echo $this->url(array(),'contact');?>">CONTACT</a>
+                <a href="#">CONTACT</a>
             </div>
             <div id="content">
                 <?php echo $this->layout()->content ?>
@@ -23,6 +23,17 @@
                                 
             </div>
         </div>
-       
+        <?php
+            class Form_Example extends Zend_Form{
+                function init() {
+     $this->setAction('my/action')
+             ->setAttribs(array('class'=>'form', 'id'=>'exemple'))
+             ->setMethod('post');
+     $title = $this->createElement('text', 'title', array('lable'=>'Title:', 'size'=>35));
+     $submit = $this->createElement('submit', 'submit', array('lable'=>'Submit', 'class'=>'submit'));
+     $this->addElement($title)->addElement($submit);
+     }   
+            }
+        ?>
     </body>
 </html>

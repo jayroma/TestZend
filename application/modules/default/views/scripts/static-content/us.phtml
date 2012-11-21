@@ -1,3 +1,39 @@
 <h4>hello world</h4>
 <h2>hello world</h2>
 <h1>hello world</h1>
+
+ <?php
+     class Form_Item_Create extends Zend_Form{
+       public function init() {
+	$this->setAction('#')
+                ->setMethod('post');
+        $name = new Zend_Form_Element_Text('name');
+        $name->setLabel('lable neme')
+                ->setOptions(array('size'=>'35'))
+                ->setRequired(TRUE)
+                ->addValidator('NotEmpty',TRUE)
+                ->addValidators('Alpha',TRUE)
+                ->addFilter('HtmlEntities')
+                ->addFilter('StringTrim');
+        
+        $submit = new Zend_Form_Element_Submit('submit');
+        $submit->setLabel('Submit')
+                ->setOptions(array('class'=>'submit'));
+        
+        $this->addElement($name)
+             ->addElement($submit);
+       }   
+     }
+     
+     class ExampleController extends Zend_Controller_Action{
+         public function formAction(){
+             $form = new Form_Item_Create;
+             $this->view->form = $form;
+             if ($this->getRequest()->isPost()){
+                 if($form->isValid($this->getRequest()->isPost())){
+                     $values = $form->getValues();
+                 }
+             }
+         }
+     }
+?>
