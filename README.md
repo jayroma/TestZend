@@ -4,5 +4,5 @@
 
 <h2>Links</h2>
 <ul>
-  <li><a href="http://respaonsive.gs" title="">respaonsive.gs</a></ls>
+  <li><a href="http://responsive.gs" title="">responsive.gs</a></ls>
 </ul>
