@@ -9,5 +9,6 @@
   <li><a href="http://underscorejs.org/" title="">underscorejs.org</a></ls>
   <li><a href="http://twitter.github.com/bootstrap/" title="">twitter bootstrap 2</a></ls>
   <li><a href="https://github.com/Emagister/zend-form-decorators-bootstrap/" title="">zend-form-decorators-bootstrap</a></ls>
+  <li><a href="http://imperavi.com/redactor/" title="">WYSIWYG Redactor</a></ls>
 </ul>
 
